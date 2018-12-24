@@ -226,5 +226,15 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void Janelerator_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }

@@ -71,6 +71,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Janelerator.aa-DJ.resx">
+      <DependentUpon>Janelerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Janelerator.aa.resx">
+      <DependentUpon>Janelerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Janelerator.pt.resx">
+      <DependentUpon>Janelerator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Janelerator.resx">
       <DependentUpon>Janelerator.cs</DependentUpon>
     </EmbeddedResource>

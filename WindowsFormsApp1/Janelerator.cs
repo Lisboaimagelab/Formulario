@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Janelerator : Form
     {
+        
+
         int z = 1000;
         bool movimentoNeg = false;
         int velocidade = 100;
@@ -53,8 +55,39 @@ namespace WindowsFormsApp1
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+        {           
+            if (tipoDeJanela.SelectedIndex == 0)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroCortizoDF.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 1)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroCortizoME.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 2)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroCortizoMD.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 3)
+            {
+                pictureBox3.Image = Image.FromFile("../img/folhaCortizo.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 4)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroDobroplasDF.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 5)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroDobroplasME.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 6)
+            {
+                pictureBox3.Image = Image.FromFile("../img/arroDobroplasMD.png");
+            }
+            if (tipoDeJanela.SelectedIndex == 7)
+            {
+                pictureBox3.Image = Image.FromFile("../img/folhaDobroplas.png");
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -106,6 +139,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             movimentoNeg = false;
             timer1.Enabled = true;
             motorX.Value = 0;
@@ -233,6 +267,11 @@ namespace WindowsFormsApp1
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }        
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
         }

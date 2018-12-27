@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework.Forms;
+using MetroFramework.Interfaces;
 
 namespace WindowsFormsApp1
 {
-    public partial class Janelerator : Form
+    public partial class Janelerator : MetroForm
     {
         
 
@@ -24,7 +26,7 @@ namespace WindowsFormsApp1
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+        {            
             //INÍCIO - Verificação por intradução só numeros;
             double num = 0.0;
 
@@ -55,7 +57,14 @@ namespace WindowsFormsApp1
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {           
+        {
+            if (tipoDeJanela.SelectedIndex > -1)
+            {
+                tamanhoX.Visible = true;
+                tamanhoY.Visible = true;
+                tamanhoXshadow.Visible = true;
+                tamanhoYshadow.Visible = true;
+            }
             if (tipoDeJanela.SelectedIndex == 0)
             {
                 pictureBox3.Image = Image.FromFile("../img/arroCortizoDF.png");
@@ -126,11 +135,11 @@ namespace WindowsFormsApp1
                 {
                     alertErro.Text = "Dimenção Y fora de magem!";
                 };
-
+                
                 if (x <= 3000 && y <= 3000 && x > 100 && y > 100)
                 {
-                    motorX.Value = x / 30;
-                    motorY1.Value = y / 30;
+                    motorX.Value = x;
+                    motorY1.Value = y;
                     checkBoxFuroDobradicaDireita.Checked = true;
                 }
             };
@@ -201,16 +210,6 @@ namespace WindowsFormsApp1
             //FIM - Verificação por intradução só numeros;
         }
 
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
-
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
@@ -272,6 +271,11 @@ namespace WindowsFormsApp1
         }        
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBoxFuroDobradicaEsquerda_CheckedChanged(object sender, EventArgs e)
         {
 
         }

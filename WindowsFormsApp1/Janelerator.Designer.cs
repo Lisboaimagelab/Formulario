@@ -66,24 +66,32 @@
             this.alertErro = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.tamanhoYshadow = new System.Windows.Forms.PictureBox();
+            this.tamanhoXshadow = new System.Windows.Forms.PictureBox();
+            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tamanhoYshadow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tamanhoXshadow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // tamanhoX
             // 
-            this.tamanhoX.BackColor = System.Drawing.SystemColors.Control;
+            this.tamanhoX.BackColor = System.Drawing.SystemColors.Window;
             this.tamanhoX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tamanhoX, "tamanhoX");
-            this.tamanhoX.ForeColor = System.Drawing.SystemColors.Window;
+            this.tamanhoX.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tamanhoX.Name = "tamanhoX";
             this.tamanhoX.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tamanhoY
             // 
-            this.tamanhoY.BackColor = System.Drawing.SystemColors.Control;
+            this.tamanhoY.BackColor = System.Drawing.SystemColors.Window;
             this.tamanhoY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.tamanhoY, "tamanhoY");
-            this.tamanhoY.ForeColor = System.Drawing.SystemColors.Window;
+            this.tamanhoY.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tamanhoY.Name = "tamanhoY";
             this.tamanhoY.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -144,6 +152,7 @@
             // checkBoxSensorHomeY2
             // 
             resources.ApplyResources(this.checkBoxSensorHomeY2, "checkBoxSensorHomeY2");
+            this.checkBoxSensorHomeY2.Cursor = System.Windows.Forms.Cursors.Default;
             this.checkBoxSensorHomeY2.Name = "checkBoxSensorHomeY2";
             this.checkBoxSensorHomeY2.UseVisualStyleBackColor = true;
             // 
@@ -179,10 +188,12 @@
             this.checkBoxFuroDobradicaEsquerda.Name = "checkBoxFuroDobradicaEsquerda";
             this.checkBoxFuroDobradicaEsquerda.UseVisualStyleBackColor = true;
             this.checkBoxFuroDobradicaEsquerda.UseWaitCursor = true;
+            this.checkBoxFuroDobradicaEsquerda.CheckedChanged += new System.EventHandler(this.checkBoxFuroDobradicaEsquerda_CheckedChanged);
             // 
             // motorY1
             // 
             resources.ApplyResources(this.motorY1, "motorY1");
+            this.motorY1.Maximum = 3000;
             this.motorY1.Name = "motorY1";
             // 
             // motorY2
@@ -297,7 +308,6 @@
             // alertErro
             // 
             resources.ApplyResources(this.alertErro, "alertErro");
-            this.alertErro.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.alertErro.ForeColor = System.Drawing.Color.Red;
             this.alertErro.Name = "alertErro";
             // 
@@ -315,12 +325,53 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
+            // tamanhoYshadow
+            // 
+            this.tamanhoYshadow.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.tamanhoYshadow, "tamanhoYshadow");
+            this.tamanhoYshadow.Name = "tamanhoYshadow";
+            this.tamanhoYshadow.TabStop = false;
+            // 
+            // tamanhoXshadow
+            // 
+            this.tamanhoXshadow.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.tamanhoXshadow, "tamanhoXshadow");
+            this.tamanhoXshadow.Name = "tamanhoXshadow";
+            this.tamanhoXshadow.TabStop = false;
+            // 
+            // metroTrackBar1
+            // 
+            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.metroTrackBar1, "metroTrackBar1");
+            this.metroTrackBar1.Name = "metroTrackBar1";
+            this.metroTrackBar1.Style = MetroFramework.MetroColorStyle.Green;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.TabStop = false;
+            // 
+            // metroToggle1
+            // 
+            resources.ApplyResources(this.metroToggle1, "metroToggle1");
+            this.metroToggle1.Name = "metroToggle1";
+            this.metroToggle1.UseVisualStyleBackColor = true;
+            // 
             // Janelerator
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tamanhoY);
+            this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
+            this.Controls.Add(this.metroToggle1);
+            this.Controls.Add(this.tipoDeJanela);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.metroTrackBar1);
             this.Controls.Add(this.tamanhoX);
+            this.Controls.Add(this.tamanhoXshadow);
+            this.Controls.Add(this.tamanhoY);
+            this.Controls.Add(this.tamanhoYshadow);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.alertErro);
             this.Controls.Add(this.label10);
@@ -351,14 +402,19 @@
             this.Controls.Add(this.checkBoxSensorHomeX);
             this.Controls.Add(this.motorX);
             this.Controls.Add(this.labelTipoDeJanela);
-            this.Controls.Add(this.tipoDeJanela);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.pictureBox3);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.HelpButton = true;
             this.Name = "Janelerator";
+            this.Style = MetroFramework.MetroColorStyle.Green;
+            this.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Janelerator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tamanhoYshadow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tamanhoXshadow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,6 +458,11 @@
         private System.Windows.Forms.Label alertErro;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox tamanhoYshadow;
+        private System.Windows.Forms.PictureBox tamanhoXshadow;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private MetroFramework.Controls.MetroToggle metroToggle1;
     }
 }
 

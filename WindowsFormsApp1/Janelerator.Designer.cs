@@ -40,7 +40,7 @@
             this.checkBoxSensorHomeY1 = new System.Windows.Forms.CheckBox();
             this.checkBoxSensorHomeY2 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.home = new System.Windows.Forms.Button();
             this.checkBoxFuroDobradicaDireita = new System.Windows.Forms.CheckBox();
             this.checkBoxFuroDobradicaEsquerda = new System.Windows.Forms.CheckBox();
             this.motorY1 = new System.Windows.Forms.ProgressBar();
@@ -64,17 +64,32 @@
             this.label10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.alertErro = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tamanhoYshadow = new System.Windows.Forms.PictureBox();
             this.tamanhoXshadow = new System.Windows.Forms.PictureBox();
-            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
+            this.TrackBarMotorX = new MetroFramework.Controls.MetroTrackBar();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.X = new MetroFramework.Controls.MetroToggle();
+            this.lableMotorX = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
+            this.metroTrackBar1 = new MetroFramework.Controls.MetroTrackBar();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.metroToggle2 = new MetroFramework.Controls.MetroToggle();
+            this.metroTrackBar2 = new MetroFramework.Controls.MetroTrackBar();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.metroToggle3 = new MetroFramework.Controls.MetroToggle();
+            this.metroTrackBar3 = new MetroFramework.Controls.MetroTrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoYshadow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoXshadow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tamanhoX
@@ -142,6 +157,7 @@
             resources.ApplyResources(this.checkBoxSensorHomeX, "checkBoxSensorHomeX");
             this.checkBoxSensorHomeX.Name = "checkBoxSensorHomeX";
             this.checkBoxSensorHomeX.UseVisualStyleBackColor = true;
+            this.checkBoxSensorHomeX.CheckedChanged += new System.EventHandler(this.checkBoxSensorHomeX_CheckedChanged);
             // 
             // checkBoxSensorHomeY1
             // 
@@ -165,12 +181,12 @@
             this.checkBox4.UseWaitCursor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
-            // button2
+            // home
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            resources.ApplyResources(this.home, "home");
+            this.home.Name = "home";
+            this.home.UseVisualStyleBackColor = true;
+            this.home.Click += new System.EventHandler(this.button2_Click);
             // 
             // checkBoxFuroDobradicaDireita
             // 
@@ -311,12 +327,6 @@
             this.alertErro.ForeColor = System.Drawing.Color.Red;
             this.alertErro.Name = "alertErro";
             // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -339,12 +349,19 @@
             this.tamanhoXshadow.Name = "tamanhoXshadow";
             this.tamanhoXshadow.TabStop = false;
             // 
-            // metroTrackBar1
+            // TrackBarMotorX
             // 
-            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.metroTrackBar1, "metroTrackBar1");
-            this.metroTrackBar1.Name = "metroTrackBar1";
-            this.metroTrackBar1.Style = MetroFramework.MetroColorStyle.Green;
+            this.TrackBarMotorX.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.TrackBarMotorX, "TrackBarMotorX");
+            this.TrackBarMotorX.LargeChange = 1;
+            this.TrackBarMotorX.Maximum = 3000;
+            this.TrackBarMotorX.MouseWheelBarPartitions = 1;
+            this.TrackBarMotorX.Name = "TrackBarMotorX";
+            this.TrackBarMotorX.SmallChange = 0;
+            this.TrackBarMotorX.Style = MetroFramework.MetroColorStyle.Green;
+            this.TrackBarMotorX.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TrackBarMotorX.Value = 0;
+            this.TrackBarMotorX.Scroll += new System.Windows.Forms.ScrollEventHandler(this.metroTrackBar1_Scroll);
             // 
             // pictureBox5
             // 
@@ -353,26 +370,167 @@
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
             // 
+            // X
+            // 
+            resources.ApplyResources(this.X, "X");
+            this.X.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.X.DisplayStatus = false;
+            this.X.Name = "X";
+            this.X.Style = MetroFramework.MetroColorStyle.Green;
+            this.X.UseStyleColors = true;
+            this.X.UseVisualStyleBackColor = true;
+            this.X.CheckedChanged += new System.EventHandler(this.metroToggle1_CheckedChanged);
+            // 
+            // lableMotorX
+            // 
+            resources.ApplyResources(this.lableMotorX, "lableMotorX");
+            this.lableMotorX.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lableMotorX.Name = "lableMotorX";
+            this.lableMotorX.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Name = "label1";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
             // metroToggle1
             // 
             resources.ApplyResources(this.metroToggle1, "metroToggle1");
+            this.metroToggle1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroToggle1.DisplayStatus = false;
             this.metroToggle1.Name = "metroToggle1";
+            this.metroToggle1.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroToggle1.UseStyleColors = true;
             this.metroToggle1.UseVisualStyleBackColor = true;
+            // 
+            // metroTrackBar1
+            // 
+            this.metroTrackBar1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.metroTrackBar1, "metroTrackBar1");
+            this.metroTrackBar1.LargeChange = 1;
+            this.metroTrackBar1.Maximum = 3000;
+            this.metroTrackBar1.MouseWheelBarPartitions = 1;
+            this.metroTrackBar1.Name = "metroTrackBar1";
+            this.metroTrackBar1.SmallChange = 0;
+            this.metroTrackBar1.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTrackBar1.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTrackBar1.Value = 0;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Name = "label2";
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            // 
+            // metroToggle2
+            // 
+            resources.ApplyResources(this.metroToggle2, "metroToggle2");
+            this.metroToggle2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroToggle2.DisplayStatus = false;
+            this.metroToggle2.Name = "metroToggle2";
+            this.metroToggle2.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroToggle2.UseStyleColors = true;
+            this.metroToggle2.UseVisualStyleBackColor = true;
+            // 
+            // metroTrackBar2
+            // 
+            this.metroTrackBar2.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.metroTrackBar2, "metroTrackBar2");
+            this.metroTrackBar2.LargeChange = 1;
+            this.metroTrackBar2.Maximum = 3000;
+            this.metroTrackBar2.MouseWheelBarPartitions = 1;
+            this.metroTrackBar2.Name = "metroTrackBar2";
+            this.metroTrackBar2.SmallChange = 0;
+            this.metroTrackBar2.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTrackBar2.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTrackBar2.Value = 0;
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label3.Name = "label3";
+            // 
+            // textBox4
+            // 
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            // 
+            // metroToggle3
+            // 
+            resources.ApplyResources(this.metroToggle3, "metroToggle3");
+            this.metroToggle3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroToggle3.DisplayStatus = false;
+            this.metroToggle3.Name = "metroToggle3";
+            this.metroToggle3.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroToggle3.UseStyleColors = true;
+            this.metroToggle3.UseVisualStyleBackColor = true;
+            // 
+            // metroTrackBar3
+            // 
+            this.metroTrackBar3.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.metroTrackBar3, "metroTrackBar3");
+            this.metroTrackBar3.LargeChange = 1;
+            this.metroTrackBar3.Maximum = 3000;
+            this.metroTrackBar3.MouseWheelBarPartitions = 1;
+            this.metroTrackBar3.Name = "metroTrackBar3";
+            this.metroTrackBar3.SmallChange = 0;
+            this.metroTrackBar3.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTrackBar3.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTrackBar3.Value = 0;
             // 
             // Janelerator
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.metroToggle3);
+            this.Controls.Add(this.metroTrackBar3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.metroToggle2);
+            this.Controls.Add(this.metroTrackBar2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.metroToggle1);
+            this.Controls.Add(this.metroTrackBar1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.home);
+            this.Controls.Add(this.lableMotorX);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.X);
             this.Controls.Add(this.tipoDeJanela);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.metroTrackBar1);
+            this.Controls.Add(this.TrackBarMotorX);
             this.Controls.Add(this.tamanhoX);
             this.Controls.Add(this.tamanhoXshadow);
             this.Controls.Add(this.tamanhoY);
             this.Controls.Add(this.tamanhoYshadow);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.alertErro);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -395,7 +553,6 @@
             this.Controls.Add(this.motorY1);
             this.Controls.Add(this.checkBoxFuroDobradicaEsquerda);
             this.Controls.Add(this.checkBoxFuroDobradicaDireita);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBoxSensorHomeY2);
             this.Controls.Add(this.checkBoxSensorHomeY1);
@@ -415,6 +572,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoYshadow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoXshadow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,7 +590,7 @@
         private System.Windows.Forms.CheckBox checkBoxSensorHomeY1;
         private System.Windows.Forms.CheckBox checkBoxSensorHomeY2;
         private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button home;
         private System.Windows.Forms.CheckBox checkBoxFuroDobradicaDireita;
         private System.Windows.Forms.CheckBox checkBoxFuroDobradicaEsquerda;
         private System.Windows.Forms.ProgressBar motorY1;
@@ -456,13 +614,27 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label alertErro;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox tamanhoYshadow;
         private System.Windows.Forms.PictureBox tamanhoXshadow;
-        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
+        private MetroFramework.Controls.MetroTrackBar TrackBarMotorX;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label lableMotorX;
+        private System.Windows.Forms.TextBox textBox2;
+        private MetroFramework.Controls.MetroToggle X;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
         private MetroFramework.Controls.MetroToggle metroToggle1;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private MetroFramework.Controls.MetroToggle metroToggle2;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private MetroFramework.Controls.MetroToggle metroToggle3;
+        private MetroFramework.Controls.MetroTrackBar metroTrackBar3;
     }
 }
 

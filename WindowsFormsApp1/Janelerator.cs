@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
         int z = 1000;
         bool movimentoNeg = false;
         int velocidade = 100;
+        int n = 100; // valor de intervalo
 
         public Janelerator()
         {
@@ -152,6 +153,7 @@ namespace WindowsFormsApp1
             movimentoNeg = false;
             timer1.Enabled = true;
             motorX.Value = 0;
+            TrackBarMotorX.Value = 0;
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -212,7 +214,8 @@ namespace WindowsFormsApp1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
+            //MOTOR X
+ /*           if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
             {
                 motorX.Value = z;
                 textBox1.Text = z.ToString();
@@ -245,13 +248,46 @@ namespace WindowsFormsApp1
                 timer1.Stop();
                 z = 0;
             }
-            /*           else
-                        {
-                            timer1.Stop();
-                            z = 0;
-                            movimentoNeg = true;
-                        }
-            */
+*/
+            //metroTrackBar1 
+            if (z >= 0 && movimentoNeg == false && X.Checked == false) // movimento negativo rapido 
+            {
+                TrackBarMotorX.Value = z;
+                textBox2.Text = z.ToString();
+                pictureBox1.Location = new Point(z, 247);
+                z--;
+            }
+            if (z >= 0 && movimentoNeg == false && X.Checked == true && velocidade != 0) // movimento negativo lento
+            {
+                
+                timer1.Interval = n;
+                TrackBarMotorX.Value = z;
+                textBox2.Text = z.ToString();
+                pictureBox1.Location = new Point(z, 247);
+                z--;
+                n++;
+                velocidade--;
+                if (velocidade == 0)
+                {
+                    movimentoNeg = true;
+                    pictureBox1.Location = new Point(z, 247);
+                }
+
+            }
+            if (z >= 0 && movimentoNeg == true && X.Checked == true && velocidade == 0) //
+            {
+                timer1.Interval = 100;
+                TrackBarMotorX.Value = z;
+                textBox2.Text = z.ToString();
+                pictureBox1.Location = new Point(z, 247);
+                z++;
+            }
+            if (z >= 0 && movimentoNeg == true && X.Checked == false) //
+            {
+                timer1.Stop();
+                pictureBox1.Location = new Point(z, 247);
+                z = 0;               
+            }
 
         }
 
@@ -276,6 +312,36 @@ namespace WindowsFormsApp1
         }
 
         private void checkBoxFuroDobradicaEsquerda_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBoxSensorHomeX_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroToggle1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTrackBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
         {
 
         }

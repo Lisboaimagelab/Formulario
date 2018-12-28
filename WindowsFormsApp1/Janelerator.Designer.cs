@@ -92,6 +92,17 @@
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoYshadow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tamanhoXshadow)).BeginInit();
@@ -123,8 +134,8 @@
             // buttonStart
             // 
             this.buttonStart.BackColor = System.Drawing.Color.Green;
-            this.buttonStart.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.buttonStart, "buttonStart");
+            this.buttonStart.FlatAppearance.BorderSize = 0;
             this.buttonStart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.UseVisualStyleBackColor = false;
@@ -242,6 +253,7 @@
             // 
             resources.ApplyResources(this.textBoxMotorX, "textBoxMotorX");
             this.textBoxMotorX.Name = "textBoxMotorX";
+            this.textBoxMotorX.TextChanged += new System.EventHandler(this.textBoxMotorX_TextChanged);
             // 
             // labelMotorMontagemE
             // 
@@ -465,8 +477,8 @@
             // TrackBarMotorY
             // 
             this.TrackBarMotorY.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.TrackBarMotorY, "TrackBarMotorY");
             this.TrackBarMotorY.LargeChange = 1;
+            resources.ApplyResources(this.TrackBarMotorY, "TrackBarMotorY");
             this.TrackBarMotorY.Maximum = 3000;
             this.TrackBarMotorY.MouseWheelBarPartitions = 1;
             this.TrackBarMotorY.Name = "TrackBarMotorY";
@@ -643,6 +655,17 @@
             // 
             // metroTabPage2
             // 
+            this.metroTabPage2.Controls.Add(this.label16);
+            this.metroTabPage2.Controls.Add(this.label15);
+            this.metroTabPage2.Controls.Add(this.label14);
+            this.metroTabPage2.Controls.Add(this.label13);
+            this.metroTabPage2.Controls.Add(this.label12);
+            this.metroTabPage2.Controls.Add(this.metroTextBox6);
+            this.metroTabPage2.Controls.Add(this.metroTextBox5);
+            this.metroTabPage2.Controls.Add(this.metroTextBox4);
+            this.metroTabPage2.Controls.Add(this.metroTextBox3);
+            this.metroTabPage2.Controls.Add(this.metroTextBox2);
+            this.metroTabPage2.Controls.Add(this.metroTextBox1);
             this.metroTabPage2.Controls.Add(this.label5);
             this.metroTabPage2.Controls.Add(this.label4);
             this.metroTabPage2.Controls.Add(this.label3);
@@ -700,6 +723,72 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // metroTextBox1
+            // 
+            resources.ApplyResources(this.metroTextBox1, "metroTextBox1");
+            this.metroTextBox1.Name = "metroTextBox1";
+            // 
+            // metroTextBox2
+            // 
+            resources.ApplyResources(this.metroTextBox2, "metroTextBox2");
+            this.metroTextBox2.Name = "metroTextBox2";
+            // 
+            // metroTextBox3
+            // 
+            resources.ApplyResources(this.metroTextBox3, "metroTextBox3");
+            this.metroTextBox3.Name = "metroTextBox3";
+            // 
+            // metroTextBox4
+            // 
+            resources.ApplyResources(this.metroTextBox4, "metroTextBox4");
+            this.metroTextBox4.Name = "metroTextBox4";
+            // 
+            // metroTextBox5
+            // 
+            resources.ApplyResources(this.metroTextBox5, "metroTextBox5");
+            this.metroTextBox5.Name = "metroTextBox5";
+            // 
+            // metroTextBox6
+            // 
+            resources.ApplyResources(this.metroTextBox6, "metroTextBox6");
+            this.metroTextBox6.Name = "metroTextBox6";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.BackColor = System.Drawing.SystemColors.Window;
+            this.label12.ForeColor = System.Drawing.Color.Firebrick;
+            this.label12.Name = "label12";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.BackColor = System.Drawing.SystemColors.Window;
+            this.label13.ForeColor = System.Drawing.Color.Firebrick;
+            this.label13.Name = "label13";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.BackColor = System.Drawing.SystemColors.Window;
+            this.label14.ForeColor = System.Drawing.Color.Firebrick;
+            this.label14.Name = "label14";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.BackColor = System.Drawing.SystemColors.Window;
+            this.label15.ForeColor = System.Drawing.Color.Firebrick;
+            this.label15.Name = "label15";
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.BackColor = System.Drawing.SystemColors.Window;
+            this.label16.ForeColor = System.Drawing.Color.Firebrick;
+            this.label16.Name = "label16";
             // 
             // Janelerator
             // 
@@ -792,6 +881,17 @@
         private MetroFramework.Controls.MetroTabPage metroTabPage1;
         private MetroFramework.Controls.MetroTabPage metroTabPage2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private System.Windows.Forms.Label label12;
+        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private MetroFramework.Controls.MetroTextBox metroTextBox4;
+        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
     }
 }
 

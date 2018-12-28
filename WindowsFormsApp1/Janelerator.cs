@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework.Controls;
 using MetroFramework.Forms;
 using MetroFramework.Interfaces;
 
@@ -14,18 +15,67 @@ namespace WindowsFormsApp1
 {
     public partial class Janelerator : MetroForm
     {
-        
-
-        int zMotorX = 1000;
+        int z;
         bool movimentoNeg = false;
         int velocidade = 100;
-        int n = 100; // valor de intervalo
+        int n = 10; // valor de intervalo
+        int caseSwitch = 1;
+        int repeat = 1;
+        
+        void Repeat()
+        {
+            Random random = new Random();
+            z = random.Next(500, 2700);
+            movimentoNeg = false;
+            timer1.Enabled = true;
+        }
+        void MoveToHome(MetroTrackBar metroTrackBar, MetroToggle metroToggle, TextBox textBox)
+        {
+            
+            timer1.Interval = 1;
+            if (z >= 0 && movimentoNeg == false && metroToggle.Checked == false) // movimento negativo rapido 
+            {
+                metroTrackBar.Value = z;
+                textBox.Text = z.ToString();
+                z--;
+            }
+            if (z >= 0 && movimentoNeg == false && metroToggle.Checked == true && velocidade != 0) // movimento negativo lento
+            {
+                timer1.Interval = n;
+                metroTrackBar.Value = z;
+                textBox.Text = z.ToString();
+                z--;
+                n++;
+                velocidade--;
+                if (velocidade == 0)
+                {
+                    movimentoNeg = true;
+                }
+            }
+            if (z >= 0 && movimentoNeg == true && metroToggle.Checked == true && velocidade == 0) //
+            {
+                timer1.Interval = 100;
+                metroTrackBar.Value = z;
+                textBox.Text = z.ToString();
+                z++;
+                
+            }
+            if (z >= 0 && movimentoNeg == true && metroToggle.Checked == false) //
+            {
+                
+                timer1.Stop();
+                velocidade = 100;
+                n = 10; // valor de intervalo
+                caseSwitch++;
+                Repeat();
+            }
 
+        }
         public Janelerator()
         {
             InitializeComponent();
         }
-
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {            
             //INÍCIO - Verificação por intradução só numeros;
@@ -33,11 +83,7 @@ namespace WindowsFormsApp1
 
             if (double.TryParse(tamanhoX.Text, out num))
             {
-                
-            }
-            else
-            {
-                tamanhoX.Text = "Só numeros!";
+                buttonStart.Enabled = true;
             }
             //FIM - Verificação por intradução só numeros;
         }
@@ -148,11 +194,10 @@ namespace WindowsFormsApp1
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {        
-            movimentoNeg = false;
-            timer1.Enabled = true;
-            TrackBarMotorX.Value = 0;
+        {
+            Repeat();
         }
+        
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
@@ -201,87 +246,47 @@ namespace WindowsFormsApp1
 
             if (double.TryParse(tamanhoY.Text, out num))
             {
-
-            }
-            else
-            {
-                tamanhoY.Text = "Só numeros!";
+                buttonStart.Enabled = true;
             }
             //FIM - Verificação por intradução só numeros;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //MOTOR X
-            /*           if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
-                       {
-                           motorX.Value = z;
-                           textBox1.Text = z.ToString();
-                           z--;
-                       }
-                       if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == true && velocidade != 0) // movimento negativo lento
-                       {
-                           int n = 50; // valor de intervalo
-                           timer1.Interval = n; 
-                           motorX.Value = z;
-                           textBox1.Text = z.ToString();
-                           z--;
-                           n++;
-                           velocidade--;
-
-                           if(velocidade == 0)
-                           {
-                               movimentoNeg = true;
-                           }
-                       }
-                       if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == true && velocidade == 0) //
-                       {
-                           timer1.Interval = 100;
-                           motorX.Value = z;
-                           textBox1.Text = z.ToString();
-                           z++;
-                       }
-                       if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == false) //
-                       {
-                           timer1.Stop();
-                           z = 0;
-                       }
-           */
-            //MotorX
-            if (zMotorX >= 0 && movimentoNeg == false && sensorMotorX.Checked == false) // movimento negativo rapido 
+            metroTextBox1.Text = Convert.ToString(caseSwitch);
+            metroTextBox2.Text = z.ToString();
+            metroTextBox3.Text = movimentoNeg.ToString();
+            metroTextBox4.Text = velocidade.ToString();
+            metroTextBox5.Text = n.ToString();
+            //--->>> MotorX <<<---//
+            switch (caseSwitch)
             {
-                TrackBarMotorX.Value = zMotorX;
-                textBoxMotorX.Text = zMotorX.ToString();
-                zMotorX--;
+                case 1:
+                    MoveToHome(TrackBarMotorMontagemE, sensorMotorMontagemE, textBoxMotorMontagemE);
+                    break;
+                case 2:
+                    MoveToHome(TrackBarMotorAgua, sensorMotorAgua, textBoxMotorAgua);
+                    break;
+                case 3:
+                    MoveToHome(TrackBarMotorManeteZ, sensorMotorManeteZ, textBoxMotorManeteZ);
+                    break;
+                case 4:
+                    MoveToHome(TrackBarMotorManeteX, sensorMotorManeteX, textBoxMotorManeteX);
+                    break;
+                case 5:
+                    MoveToHome(TrackBarMontagemD, sensorMontagemD, textBoxMontagemD);
+                    break;
+                case 6:
+                    MoveToHome(TrackBarMotorX, sensorMotorX, textBoxMotorX);
+                    break;
+                case 7:
+                    MoveToHome(TrackBarMotorY, sensorMotorY, textBoxMotorY);
+                    break;
+                case 8:
+                    MoveToHome(TrackBarMotorY2, sensorMotorY2, textBoxMotorY2);
+                    break;
             }
-            if (zMotorX >= 0 && movimentoNeg == false && sensorMotorX.Checked == true && velocidade != 0) // movimento negativo lento
-            {
-                
-                timer1.Interval = n;
-                TrackBarMotorX.Value = zMotorX;
-                textBoxMotorX.Text = zMotorX.ToString();
-                zMotorX--;
-                n++;
-                velocidade--;
-                if (velocidade == 0)
-                {
-                    movimentoNeg = true;
-                }
-
-            }
-            if (zMotorX >= 0 && movimentoNeg == true && sensorMotorX.Checked == true && velocidade == 0) //
-            {
-                timer1.Interval = 100;
-                TrackBarMotorX.Value = zMotorX;
-                textBoxMotorX.Text = zMotorX.ToString();
-                zMotorX++;
-            }
-            if (zMotorX >= 0 && movimentoNeg == true && sensorMotorX.Checked == false) //
-            {
-                timer1.Stop();
-                zMotorX = 0;               
-            }
-
+                     
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
@@ -291,7 +296,7 @@ namespace WindowsFormsApp1
 
         private void Janelerator_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -350,6 +355,16 @@ namespace WindowsFormsApp1
         }
 
         private void metroTabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxMotorX_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
         {
 
         }

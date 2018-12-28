@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
     {
         
 
-        int z = 1000;
+        int zMotorX = 1000;
         bool movimentoNeg = false;
         int velocidade = 100;
         int n = 100; // valor de intervalo
@@ -139,20 +139,18 @@ namespace WindowsFormsApp1
                 
                 if (x <= 3000 && y <= 3000 && x > 100 && y > 100)
                 {
-                    motorX.Value = x;
-                    motorY1.Value = y;
-                    checkBoxFuroDobradicaDireita.Checked = true;
+                    TrackBarMotorX.Value = x;
+                    TrackBarMotorY.Value = y;
+                    metroToggle2.Checked = true;
                 }
             };
             
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-
+        {        
             movimentoNeg = false;
             timer1.Enabled = true;
-            motorX.Value = 0;
             TrackBarMotorX.Value = 0;
         }
 
@@ -215,78 +213,73 @@ namespace WindowsFormsApp1
         private void timer1_Tick(object sender, EventArgs e)
         {
             //MOTOR X
- /*           if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
-            {
-                motorX.Value = z;
-                textBox1.Text = z.ToString();
-                z--;
-            }
-            if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == true && velocidade != 0) // movimento negativo lento
-            {
-                int n = 50; // valor de intervalo
-                timer1.Interval = n; 
-                motorX.Value = z;
-                textBox1.Text = z.ToString();
-                z--;
-                n++;
-                velocidade--;
+            /*           if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == false) // movimento negativo rapido 
+                       {
+                           motorX.Value = z;
+                           textBox1.Text = z.ToString();
+                           z--;
+                       }
+                       if (z >= 0 && movimentoNeg == false && checkBoxSensorHomeX.Checked == true && velocidade != 0) // movimento negativo lento
+                       {
+                           int n = 50; // valor de intervalo
+                           timer1.Interval = n; 
+                           motorX.Value = z;
+                           textBox1.Text = z.ToString();
+                           z--;
+                           n++;
+                           velocidade--;
 
-                if(velocidade == 0)
-                {
-                    movimentoNeg = true;
-                }
-            }
-            if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == true && velocidade == 0) //
+                           if(velocidade == 0)
+                           {
+                               movimentoNeg = true;
+                           }
+                       }
+                       if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == true && velocidade == 0) //
+                       {
+                           timer1.Interval = 100;
+                           motorX.Value = z;
+                           textBox1.Text = z.ToString();
+                           z++;
+                       }
+                       if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == false) //
+                       {
+                           timer1.Stop();
+                           z = 0;
+                       }
+           */
+            //MotorX
+            if (zMotorX >= 0 && movimentoNeg == false && sensorMotorX.Checked == false) // movimento negativo rapido 
             {
-                timer1.Interval = 100;
-                motorX.Value = z;
-                textBox1.Text = z.ToString();
-                z++;
+                TrackBarMotorX.Value = zMotorX;
+                textBoxMotorX.Text = zMotorX.ToString();
+                zMotorX--;
             }
-            if (z >= 0 && movimentoNeg == true && checkBoxSensorHomeX.Checked == false) //
-            {
-                timer1.Stop();
-                z = 0;
-            }
-*/
-            //metroTrackBar1 
-            if (z >= 0 && movimentoNeg == false && X.Checked == false) // movimento negativo rapido 
-            {
-                TrackBarMotorX.Value = z;
-                textBox2.Text = z.ToString();
-                pictureBox1.Location = new Point(z, 247);
-                z--;
-            }
-            if (z >= 0 && movimentoNeg == false && X.Checked == true && velocidade != 0) // movimento negativo lento
+            if (zMotorX >= 0 && movimentoNeg == false && sensorMotorX.Checked == true && velocidade != 0) // movimento negativo lento
             {
                 
                 timer1.Interval = n;
-                TrackBarMotorX.Value = z;
-                textBox2.Text = z.ToString();
-                pictureBox1.Location = new Point(z, 247);
-                z--;
+                TrackBarMotorX.Value = zMotorX;
+                textBoxMotorX.Text = zMotorX.ToString();
+                zMotorX--;
                 n++;
                 velocidade--;
                 if (velocidade == 0)
                 {
                     movimentoNeg = true;
-                    pictureBox1.Location = new Point(z, 247);
                 }
 
             }
-            if (z >= 0 && movimentoNeg == true && X.Checked == true && velocidade == 0) //
+            if (zMotorX >= 0 && movimentoNeg == true && sensorMotorX.Checked == true && velocidade == 0) //
             {
                 timer1.Interval = 100;
-                TrackBarMotorX.Value = z;
-                textBox2.Text = z.ToString();
-                pictureBox1.Location = new Point(z, 247);
-                z++;
+                TrackBarMotorX.Value = zMotorX;
+                textBoxMotorX.Text = zMotorX.ToString();
+                zMotorX++;
             }
-            if (z >= 0 && movimentoNeg == true && X.Checked == false) //
+            if (zMotorX >= 0 && movimentoNeg == true && sensorMotorX.Checked == false) //
             {
                 timer1.Stop();
-                pictureBox1.Location = new Point(z, 247);
-                z = 0;               
+                zMotorX = 0;               
             }
 
         }
@@ -342,6 +335,16 @@ namespace WindowsFormsApp1
         }
 
         private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
         {
 
         }

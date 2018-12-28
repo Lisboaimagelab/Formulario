@@ -122,7 +122,7 @@
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="tamanhoX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 171</value>
+    <value>136, 122</value>
   </data>
   <data name="tamanhoX.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -145,16 +145,16 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tamanhoX.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;tamanhoX.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>0</value>
   </data>
   <data name="tamanhoY.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="tamanhoY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 305</value>
+    <value>351, 256</value>
   </data>
   <data name="tamanhoY.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -175,22 +175,22 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tamanhoY.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;tamanhoY.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>3</value>
   </data>
   <data name="buttonStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="buttonStart.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt, style=Bold</value>
+    <value>Segoe UI Black, 11.25pt, style=Bold</value>
   </data>
   <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 22</value>
+    <value>351, 49</value>
   </data>
   <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 36</value>
+    <value>100, 29</value>
   </data>
   <data name="buttonStart.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -205,11 +205,14 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>9</value>
   </data>
+  <metadata name="tipoDeJanela.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tipoDeJanela.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
@@ -244,7 +247,7 @@
     <value>Folha DOBROPLAS </value>
   </data>
   <data name="tipoDeJanela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 98</value>
+    <value>16, 49</value>
   </data>
   <data name="tipoDeJanela.Size" type="System.Drawing.Size, System.Drawing">
     <value>320, 29</value>
@@ -262,11 +265,14 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tipoDeJanela.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;tipoDeJanela.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>2</value>
   </data>
+  <metadata name="labelTipoDeJanela.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="labelTipoDeJanela.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -274,7 +280,7 @@
     <value>Segoe UI Semilight, 9.75pt</value>
   </data>
   <data name="labelTipoDeJanela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 73</value>
+    <value>16, 24</value>
   </data>
   <data name="labelTipoDeJanela.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 17</value>
@@ -292,151 +298,19 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelTipoDeJanela.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;labelTipoDeJanela.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>10</value>
   </data>
-  <data name="motorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 368</value>
+  <data name="home.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="motorX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorX.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;motorX.Name" xml:space="preserve">
-    <value>motorX</value>
-  </data>
-  <data name="&gt;&gt;motorX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorX.ZOrder" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="checkBoxSensorHomeX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxSensorHomeX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="checkBoxSensorHomeX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 368</value>
-  </data>
-  <data name="checkBoxSensorHomeX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 21</value>
-  </data>
-  <data name="checkBoxSensorHomeX.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="checkBoxSensorHomeX.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeX.Name" xml:space="preserve">
-    <value>checkBoxSensorHomeX</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeX.ZOrder" xml:space="preserve">
-    <value>49</value>
-  </data>
-  <data name="checkBoxSensorHomeY1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxSensorHomeY1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 398</value>
-  </data>
-  <data name="checkBoxSensorHomeY1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
-  </data>
-  <data name="checkBoxSensorHomeY1.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="checkBoxSensorHomeY1.Text" xml:space="preserve">
-    <value>Y-S1</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY1.Name" xml:space="preserve">
-    <value>checkBoxSensorHomeY1</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY1.ZOrder" xml:space="preserve">
-    <value>48</value>
-  </data>
-  <data name="checkBoxSensorHomeY2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxSensorHomeY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 427</value>
-  </data>
-  <data name="checkBoxSensorHomeY2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
-  </data>
-  <data name="checkBoxSensorHomeY2.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="checkBoxSensorHomeY2.Text" xml:space="preserve">
-    <value>Y-S2</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY2.Name" xml:space="preserve">
-    <value>checkBoxSensorHomeY2</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxSensorHomeY2.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
-  <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 340</value>
-  </data>
-  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 22</value>
-  </data>
-  <data name="checkBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="checkBox4.Text" xml:space="preserve">
-    <value>checkBox4</value>
-  </data>
-  <data name="checkBox4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;checkBox4.Name" xml:space="preserve">
-    <value>checkBox4</value>
-  </data>
-  <data name="&gt;&gt;checkBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox4.ZOrder" xml:space="preserve">
-    <value>46</value>
+  <data name="home.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="home.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 22</value>
+    <value>15, 22</value>
   </data>
   <data name="home.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 31</value>
@@ -445,7 +319,7 @@
     <value>24</value>
   </data>
   <data name="home.Text" xml:space="preserve">
-    <value>home</value>
+    <value>HOME</value>
   </data>
   <data name="&gt;&gt;home.Name" xml:space="preserve">
     <value>home</value>
@@ -454,538 +328,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;home.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;home.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 426</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 22</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="checkBoxFuroDobradicaDireita.Text" xml:space="preserve">
-    <value>Furo DD</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaDireita.Name" xml:space="preserve">
-    <value>checkBoxFuroDobradicaDireita</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaDireita.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaDireita.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaDireita.ZOrder" xml:space="preserve">
-    <value>45</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.Location" type="System.Drawing.Point, System.Drawing">
-    <value>913, 397</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 22</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="checkBoxFuroDobradicaEsquerda.Text" xml:space="preserve">
-    <value>Furo DE</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaEsquerda.Name" xml:space="preserve">
-    <value>checkBoxFuroDobradicaEsquerda</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaEsquerda.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaEsquerda.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFuroDobradicaEsquerda.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="motorY1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 398</value>
-  </data>
-  <data name="motorY1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorY1.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;motorY1.Name" xml:space="preserve">
-    <value>motorY1</value>
-  </data>
-  <data name="&gt;&gt;motorY1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorY1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorY1.ZOrder" xml:space="preserve">
-    <value>43</value>
-  </data>
-  <data name="motorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 427</value>
-  </data>
-  <data name="motorY2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorY2.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;motorY2.Name" xml:space="preserve">
-    <value>motorY2</value>
-  </data>
-  <data name="&gt;&gt;motorY2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorY2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorY2.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="motorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 458</value>
-  </data>
-  <data name="motorManeteX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorManeteX.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;motorManeteX.Name" xml:space="preserve">
-    <value>motorManeteX</value>
-  </data>
-  <data name="&gt;&gt;motorManeteX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorManeteX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorManeteX.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="motorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 487</value>
-  </data>
-  <data name="motorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorManeteZ.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;motorManeteZ.Name" xml:space="preserve">
-    <value>motorManeteZ</value>
-  </data>
-  <data name="&gt;&gt;motorManeteZ.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorManeteZ.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorManeteZ.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="motorMontagemD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 518</value>
-  </data>
-  <data name="motorMontagemD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorMontagemD.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemD.Name" xml:space="preserve">
-    <value>motorMontagemD</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemD.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemD.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="motorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 547</value>
-  </data>
-  <data name="motorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="motorMontagemE.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemE.Name" xml:space="preserve">
-    <value>motorMontagemE</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemE.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemE.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;motorMontagemE.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="progressBar8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 578</value>
-  </data>
-  <data name="progressBar8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="progressBar8.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;progressBar8.Name" xml:space="preserve">
-    <value>progressBar8</value>
-  </data>
-  <data name="&gt;&gt;progressBar8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progressBar8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;progressBar8.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="progressBar9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 607</value>
-  </data>
-  <data name="progressBar9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="progressBar9.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;progressBar9.Name" xml:space="preserve">
-    <value>progressBar9</value>
-  </data>
-  <data name="&gt;&gt;progressBar9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progressBar9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;progressBar9.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="progressBar10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 638</value>
-  </data>
-  <data name="progressBar10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 23</value>
-  </data>
-  <data name="progressBar10.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;progressBar10.Name" xml:space="preserve">
-    <value>progressBar10</value>
-  </data>
-  <data name="&gt;&gt;progressBar10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progressBar10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;progressBar10.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="labelMotorX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 372</value>
-  </data>
-  <data name="labelMotorX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 17</value>
-  </data>
-  <data name="labelMotorX.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="labelMotorX.Text" xml:space="preserve">
-    <value>motorX</value>
-  </data>
-  <data name="&gt;&gt;labelMotorX.Name" xml:space="preserve">
-    <value>labelMotorX</value>
-  </data>
-  <data name="&gt;&gt;labelMotorX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMotorX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMotorX.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="labelMotorY1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMotorY1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 400</value>
-  </data>
-  <data name="labelMotorY1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 17</value>
-  </data>
-  <data name="labelMotorY1.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="labelMotorY1.Text" xml:space="preserve">
-    <value>motorY1</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY1.Name" xml:space="preserve">
-    <value>labelMotorY1</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY1.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="labelMotorManeteX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 460</value>
-  </data>
-  <data name="labelMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 17</value>
-  </data>
-  <data name="labelMotorManeteX.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="labelMotorManeteX.Text" xml:space="preserve">
-    <value>motorManeteX</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteX.Name" xml:space="preserve">
-    <value>labelMotorManeteX</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteX.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="labelMotorY2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMotorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 430</value>
-  </data>
-  <data name="labelMotorY2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 17</value>
-  </data>
-  <data name="labelMotorY2.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="labelMotorY2.Text" xml:space="preserve">
-    <value>motorY2</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY2.Name" xml:space="preserve">
-    <value>labelMotorY2</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMotorY2.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="labelMotorManeteZ.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 491</value>
-  </data>
-  <data name="labelMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 17</value>
-  </data>
-  <data name="labelMotorManeteZ.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="labelMotorManeteZ.Text" xml:space="preserve">
-    <value>motorManeteZ</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteZ.Name" xml:space="preserve">
-    <value>labelMotorManeteZ</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteZ.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteZ.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMotorManeteZ.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 458</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 22</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="checkBoxFrezadoManeteX.Text" xml:space="preserve">
-    <value>Frezado MX</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFrezadoManeteX.Name" xml:space="preserve">
-    <value>checkBoxFrezadoManeteX</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFrezadoManeteX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFrezadoManeteX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxFrezadoManeteX.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="checkBox8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 487</value>
-  </data>
-  <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="checkBox8.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="checkBox8.Text" xml:space="preserve">
-    <value>Frezado MZ</value>
-  </data>
-  <data name="&gt;&gt;checkBox8.Name" xml:space="preserve">
-    <value>checkBox8</value>
-  </data>
-  <data name="&gt;&gt;checkBox8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox8.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="checkBoxManeteManeteX.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxManeteManeteX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="checkBoxManeteManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>991, 425</value>
-  </data>
-  <data name="checkBoxManeteManeteX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 22</value>
-  </data>
-  <data name="checkBoxManeteManeteX.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="checkBoxManeteManeteX.Text" xml:space="preserve">
-    <value>Furo MX</value>
-  </data>
-  <data name="&gt;&gt;checkBoxManeteManeteX.Name" xml:space="preserve">
-    <value>checkBoxManeteManeteX</value>
-  </data>
-  <data name="&gt;&gt;checkBoxManeteManeteX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxManeteManeteX.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxManeteManeteX.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>475, 520</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 17</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>motorMontagemD</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 551</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 17</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>motorMontagemE</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>5</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -997,7 +343,7 @@
     <value>Segoe UI Semilight, 9.75pt</value>
   </data>
   <data name="alertErro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 139</value>
+    <value>20, 95</value>
   </data>
   <data name="alertErro.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 17</value>
@@ -1015,10 +361,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;alertErro.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;alertErro.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>1</value>
   </data>
   <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1027,7 +373,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 173</value>
+    <value>9, 124</value>
   </data>
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>376, 375</value>
@@ -1042,61 +388,58 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>8</value>
   </data>
   <data name="tamanhoYshadow.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAJGSURBVHhe7ZpZbhsxEAXlJd7iJXa827BzC93/ZEmXwCd0JEKacYQREb4H1JcoEuiaJgcYzhzH
-        6TgHpil2ltrkcGj2Ss0JfCl5Ai1wZJqiJn5UaoKPC98SJ2ZScu3loyZ8ULLkheD5fP7btAuOiqvBstck
-        Bye1yU074Ki4GixbA5aSgzNN6LSVJPqsuJLsjaL1o7qZc+A0uLDoNpNEXxRXONva1Vm0uvk8uLToNpNE
-        XxZX6uqtohkAy24Ori26zSTR18WVuloeN4rWts2+/z24seg2k0TfFFc4W92+15JFL17CAraEW4tuM0n0
-        bXGll7JRohfnc2DRjaYiWuf0aNFXwZ1Ft5kk+q64suj/MRbdSSy6k1h0J7HoTmLRncSiO4lFdxKL7iQW
-        3UksupNYdCex6E5i0Z1kl6L9PbrhJNH/9D167YaJaRMcFVejb5hU74yZNsFRcYWzwXfGgMHLW6ABZ8Bj
-        8BK8BR+Fz+CXmQRqrbrjABc4wc3oW6CS/de97uBH8DNg4ufgtcCC72YSqLXqjgNc4AQ3+XwedK9borV9
-        q6t5o2NCnp774CFgIXgyk6B6U3sc4AInuMndnLftqmiiHxmsrmbfZyKeGrYIzgMOf2AxMx2qOw5wgRPc
-        6CUMZ7jbKJlogLpasnla2BqYlEOfBXiSzPRQexzgAie4yZK3drNSk82WIOE8PcAiZnpUfwnGzWjJSpad
-        hUu6YCEzHbn28iHBoyUr+tOqcNMOq4LhS8kTZLSA2Q81J7Cz1CY3+8NxnA4zm/0BwfZU9pohOnQAAAAA
-        SUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAABGdBTUEAALGPC/xhBQAAAkZJREFUeF7t
+        mlluGzEQBeUl3uIldrzbsHML3f9kSZfAJ3QkQppxhBERvgfUlygS6JomBxjOHMfpOAemKXaW2uRwaPZK
+        zQl8KXkCLXBkmqImflRqgo8L3xInZlJy7eWjJnxQsuSF4Pl8/tu0C46Kq8Gy1yQHJ7XJTTvgqLgaLFsD
+        lpKDM03otJUk+qy4kuyNovWjuplz4DS4sOg2k0RfFFc429rVWbS6+Ty4tOg2k0RfFlfq6q2iGQDLbg6u
+        LbrNJNHXxZW6Wh43ita2zb7/Pbix6DaTRN8UVzhb3b7XkkUvXsICtoRbi24zSfRtcaWXslGiF+dzYNGN
+        piJa5/Ro0VfBnUW3mST6rriy6P8xFt1JLLqTWHQnsehOYtGdxKI7iUV3EovuJBbdSSy6k1h0J7HoTmLR
+        nWSXov09uuEk0f/0PXrtholpExwVV6NvmFTvjJk2wVFxhbPBd8aAwctboAFnwGPwErwFH4XP4JeZBGqt
+        uuMAFzjBzehboJL9173u4EfwM2Di5+C1wILvZhKoteqOA1zgBDf5fB50r1uitX2rq3mjY0KenvvgIWAh
+        eDKToHpTexzgAie4yd2ct+2qaKIfGayuZt9nIp4atgjOAw5/YDEzHao7DnCBE9zoJQxnuNsomWiAulqy
+        eVrYGpiUQ58FeJLM9FB7HOACJ7jJkrd2s1KTzZYg4Tw9wCJmelR/CcbNaMlKlp2FS7pgITMdufbyIcGj
+        JSv606pw0w6rguFLyRNktIDZDzUnsLPUJjf7w3GcDjOb/QHB9lT2miE6dAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="tamanhoYshadow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAJGSURBVHhe7ZpZbhsxEAXlJd7iJXa827BzC93/ZEmXwCd0JEKacYQREb4H1JcoEuiaJgcYzhzH
-        6TgHpil2ltrkcGj2Ss0JfCl5Ai1wZJqiJn5UaoKPC98SJ2ZScu3loyZ8ULLkheD5fP7btAuOiqvBstck
-        Bye1yU074Ki4GixbA5aSgzNN6LSVJPqsuJLsjaL1o7qZc+A0uLDoNpNEXxRXONva1Vm0uvk8uLToNpNE
-        XxZX6uqtohkAy24Ori26zSTR18WVuloeN4rWts2+/z24seg2k0TfFFc4W92+15JFL17CAraEW4tuM0n0
-        bXGll7JRohfnc2DRjaYiWuf0aNFXwZ1Ft5kk+q64suj/MRbdSSy6k1h0J7HoTmLRncSiO4lFdxKL7iQW
-        3UksupNYdCex6E5i0Z1kl6L9PbrhJNH/9D167YaJaRMcFVejb5hU74yZNsFRcYWzwXfGgMHLW6ABZ8Bj
-        8BK8BR+Fz+CXmQRqrbrjABc4wc3oW6CS/de97uBH8DNg4ufgtcCC72YSqLXqjgNc4AQ3+XwedK9borV9
-        q6t5o2NCnp774CFgIXgyk6B6U3sc4AInuMndnLftqmiiHxmsrmbfZyKeGrYIzgMOf2AxMx2qOw5wgRPc
-        6CUMZ7jbKJlogLpasnla2BqYlEOfBXiSzPRQexzgAie4yZK3drNSk82WIOE8PcAiZnpUfwnGzWjJSpad
-        hUu6YCEzHbn28iHBoyUr+tOqcNMOq4LhS8kTZLSA2Q81J7Cz1CY3+8NxnA4zm/0BwfZU9pohOnQAAAAA
-        SUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAABGdBTUEAALGPC/xhBQAAAkZJREFUeF7t
+        mlluGzEQBeUl3uIldrzbsHML3f9kSZfAJ3QkQppxhBERvgfUlygS6JomBxjOHMfpOAemKXaW2uRwaPZK
+        zQl8KXkCLXBkmqImflRqgo8L3xInZlJy7eWjJnxQsuSF4Pl8/tu0C46Kq8Gy1yQHJ7XJTTvgqLgaLFsD
+        lpKDM03otJUk+qy4kuyNovWjuplz4DS4sOg2k0RfFFc429rVWbS6+Ty4tOg2k0RfFlfq6q2iGQDLbg6u
+        LbrNJNHXxZW6Wh43ita2zb7/Pbix6DaTRN8UVzhb3b7XkkUvXsICtoRbi24zSfRtcaWXslGiF+dzYNGN
+        piJa5/Ro0VfBnUW3mST6rriy6P8xFt1JLLqTWHQnsehOYtGdxKI7iUV3EovuJBbdSSy6k1h0J7HoTmLR
+        nWSXov09uuEk0f/0PXrtholpExwVV6NvmFTvjJk2wVFxhbPBd8aAwctboAFnwGPwErwFH4XP4JeZBGqt
+        uuMAFzjBzehboJL9173u4EfwM2Di5+C1wILvZhKoteqOA1zgBDf5fB50r1uitX2rq3mjY0KenvvgIWAh
+        eDKToHpTexzgAie4yd2ct+2qaKIfGayuZt9nIp4atgjOAw5/YDEzHao7DnCBE9zoJQxnuNsomWiAulqy
+        eVrYGpiUQ58FeJLM9FB7HOACJ7jJkrd2s1KTzZYg4Tw9wCJmelR/CcbNaMlKlp2FS7pgITMdufbyIcGj
+        JSv606pw0w6rguFLyRNktIDZDzUnsLPUJjf7w3GcDjOb/QHB9lT2miE6dAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="tamanhoYshadow.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAJGSURBVHhe7ZpZbhsxEAXlJd7iJXa827BzC93/ZEmXwCd0JEKacYQREb4H1JcoEuiaJgcYzhzH
-        6TgHpil2ltrkcGj2Ss0JfCl5Ai1wZJqiJn5UaoKPC98SJ2ZScu3loyZ8ULLkheD5fP7btAuOiqvBstck
-        Bye1yU074Ki4GixbA5aSgzNN6LSVJPqsuJLsjaL1o7qZc+A0uLDoNpNEXxRXONva1Vm0uvk8uLToNpNE
-        XxZX6uqtohkAy24Ori26zSTR18WVuloeN4rWts2+/z24seg2k0TfFFc4W92+15JFL17CAraEW4tuM0n0
-        bXGll7JRohfnc2DRjaYiWuf0aNFXwZ1Ft5kk+q64suj/MRbdSSy6k1h0J7HoTmLRncSiO4lFdxKL7iQW
-        3UksupNYdCex6E5i0Z1kl6L9PbrhJNH/9D167YaJaRMcFVejb5hU74yZNsFRcYWzwXfGgMHLW6ABZ8Bj
-        8BK8BR+Fz+CXmQRqrbrjABc4wc3oW6CS/de97uBH8DNg4ufgtcCC72YSqLXqjgNc4AQ3+XwedK9borV9
-        q6t5o2NCnp774CFgIXgyk6B6U3sc4AInuMndnLftqmiiHxmsrmbfZyKeGrYIzgMOf2AxMx2qOw5wgRPc
-        6CUMZ7jbKJlogLpasnla2BqYlEOfBXiSzPRQexzgAie4yZK3drNSk82WIOE8PcAiZnpUfwnGzWjJSpad
-        hUu6YCEzHbn28iHBoyUr+tOqcNMOq4LhS8kTZLSA2Q81J7Cz1CY3+8NxnA4zm/0BwfZU9pohOnQAAAAA
-        SUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAHoAAAAtCAYAAABh0n+rAAAABGdBTUEAALGPC/xhBQAAAkZJREFUeF7t
+        mlluGzEQBeUl3uIldrzbsHML3f9kSZfAJ3QkQppxhBERvgfUlygS6JomBxjOHMfpOAemKXaW2uRwaPZK
+        zQl8KXkCLXBkmqImflRqgo8L3xInZlJy7eWjJnxQsuSF4Pl8/tu0C46Kq8Gy1yQHJ7XJTTvgqLgaLFsD
+        lpKDM03otJUk+qy4kuyNovWjuplz4DS4sOg2k0RfFFc429rVWbS6+Ty4tOg2k0RfFlfq6q2iGQDLbg6u
+        LbrNJNHXxZW6Wh43ita2zb7/Pbix6DaTRN8UVzhb3b7XkkUvXsICtoRbi24zSfRtcaWXslGiF+dzYNGN
+        piJa5/Ro0VfBnUW3mST6rriy6P8xFt1JLLqTWHQnsehOYtGdxKI7iUV3EovuJBbdSSy6k1h0J7HoTmLR
+        nWSXov09uuEk0f/0PXrtholpExwVV6NvmFTvjJk2wVFxhbPBd8aAwctboAFnwGPwErwFH4XP4JeZBGqt
+        uuMAFzjBzehboJL9173u4EfwM2Di5+C1wILvZhKoteqOA1zgBDf5fB50r1uitX2rq3mjY0KenvvgIWAh
+        eDKToHpTexzgAie4yd2ct+2qaKIfGayuZt9nIp4atgjOAw5/YDEzHao7DnCBE9zoJQxnuNsomWiAulqy
+        eVrYGpiUQ58FeJLM9FB7HOACJ7jJkrd2s1KTzZYg4Tw9wCJmelR/CcbNaMlKlp2FS7pgITMdufbyIcGj
+        JSv606pw0w6rguFLyRNktIDZDzUnsLPUJjf7w3GcDjOb/QHB9lT2miE6dAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="tamanhoYshadow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 297</value>
+    <value>340, 248</value>
   </data>
   <data name="tamanhoYshadow.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 45</value>
@@ -1117,10 +460,10 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tamanhoYshadow.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;tamanhoYshadow.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>4</value>
   </data>
   <data name="tamanhoXshadow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1141,7 +484,7 @@
     <value>NoControl</value>
   </data>
   <data name="tamanhoXshadow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 163</value>
+    <value>125, 114</value>
   </data>
   <data name="tamanhoXshadow.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 45</value>
@@ -1162,16 +505,16 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tamanhoXshadow.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;tamanhoXshadow.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>5</value>
   </data>
   <data name="TrackBarMotorX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 88</value>
+    <value>71, 345</value>
   </data>
   <data name="TrackBarMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1186,11 +529,14 @@
     <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="&gt;&gt;TrackBarMotorX.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;TrackBarMotorX.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>7</value>
   </data>
+  <metadata name="pictureBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAVYAAAAzCAYAAADM4SDeAAAABGdBTUEAALGPC/xhBQAAAthJREFUeF7t
@@ -1213,7 +559,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 90</value>
+    <value>5, 41</value>
   </data>
   <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 51</value>
@@ -1231,40 +577,40 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage1</value>
   </data>
   <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>11</value>
   </data>
-  <data name="X.AutoSize" type="System.Boolean, mscorlib">
+  <data name="sensorMotorX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="X.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="sensorMotorX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="X.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 89</value>
+  <data name="sensorMotorX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 346</value>
   </data>
-  <data name="X.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="sensorMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
   </data>
-  <data name="X.TabIndex" type="System.Int32, mscorlib">
+  <data name="sensorMotorX.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
   </data>
-  <data name="X.Text" xml:space="preserve">
+  <data name="sensorMotorX.Text" xml:space="preserve">
     <value>Off</value>
   </data>
-  <data name="&gt;&gt;X.Name" xml:space="preserve">
-    <value>X</value>
+  <data name="&gt;&gt;sensorMotorX.Name" xml:space="preserve">
+    <value>sensorMotorX</value>
   </data>
-  <data name="&gt;&gt;X.Type" xml:space="preserve">
+  <data name="&gt;&gt;sensorMotorX.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;X.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;sensorMotorX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;X.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;sensorMotorX.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="lableMotorX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1276,7 +622,7 @@
     <value>NoControl</value>
   </data>
   <data name="lableMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>710, 68</value>
+    <value>215, 331</value>
   </data>
   <data name="lableMotorX.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1300,88 +646,571 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lableMotorX.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;lableMotorX.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>31</value>
   </data>
-  <data name="textBox2.Enabled" type="System.Boolean, mscorlib">
+  <data name="textBoxMotorX.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textBoxMotorX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 87</value>
+  <data name="textBoxMotorX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 344</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textBoxMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="textBoxMotorX.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
   </data>
-  <data name="textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="textBoxMotorX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="&gt;&gt;textBoxMotorX.Name" xml:space="preserve">
+    <value>textBoxMotorX</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;textBoxMotorX.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textBoxMotorX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;textBoxMotorX.ZOrder" xml:space="preserve">
+    <value>25</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>958, 356</value>
+  <data name="labelMotorMontagemE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 45</value>
+  <data name="labelMotorMontagemE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
+  <data name="labelMotorMontagemE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="labelMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 79</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelMotorMontagemE.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="labelMotorMontagemE.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="labelMotorMontagemE.Text" xml:space="preserve">
+    <value>MotorMontagemE</value>
+  </data>
+  <data name="labelMotorMontagemE.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorMontagemE.Name" xml:space="preserve">
+    <value>labelMotorMontagemE</value>
+  </data>
+  <data name="&gt;&gt;labelMotorMontagemE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorMontagemE.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorMontagemE.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="textBoxMotorMontagemE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorMontagemE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 92</value>
+  </data>
+  <data name="textBoxMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorMontagemE.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="textBoxMotorMontagemE.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorMontagemE.Name" xml:space="preserve">
+    <value>textBoxMotorMontagemE</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorMontagemE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorMontagemE.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorMontagemE.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="sensorMotorMontagemE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorMontagemE.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorMontagemE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 94</value>
+  </data>
+  <data name="sensorMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorMontagemE.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="sensorMotorMontagemE.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorMontagemE.Name" xml:space="preserve">
+    <value>sensorMotorMontagemE</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorMontagemE.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorMontagemE.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorMontagemE.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="TrackBarMotorMontagemE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 93</value>
+  </data>
+  <data name="TrackBarMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorMontagemE.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorMontagemE.Name" xml:space="preserve">
+    <value>TrackBarMotorMontagemE</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorMontagemE.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorMontagemE.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorMontagemE.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="labelMotorAgua.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorAgua.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMotorAgua.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 127</value>
+  </data>
+  <data name="labelMotorAgua.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="labelMotorAgua.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="labelMotorAgua.Text" xml:space="preserve">
+    <value>MotorAgua</value>
+  </data>
+  <data name="labelMotorAgua.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorAgua.Name" xml:space="preserve">
+    <value>labelMotorAgua</value>
+  </data>
+  <data name="&gt;&gt;labelMotorAgua.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorAgua.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorAgua.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="textBoxMotorAgua.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorAgua.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 140</value>
+  </data>
+  <data name="textBoxMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorAgua.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="textBoxMotorAgua.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorAgua.Name" xml:space="preserve">
+    <value>textBoxMotorAgua</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorAgua.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorAgua.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorAgua.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="sensorMotorAgua.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorAgua.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorAgua.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 142</value>
+  </data>
+  <data name="sensorMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorAgua.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="sensorMotorAgua.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="sensorMotorAgua.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorAgua.Name" xml:space="preserve">
+    <value>sensorMotorAgua</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorAgua.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorAgua.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorAgua.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="TrackBarMotorAgua.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 141</value>
+  </data>
+  <data name="TrackBarMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorAgua.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorAgua.Name" xml:space="preserve">
+    <value>TrackBarMotorAgua</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorAgua.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorAgua.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorAgua.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="labelMotorManeteZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorManeteZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMotorManeteZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 179</value>
+  </data>
+  <data name="labelMotorManeteZ.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="labelMotorManeteZ.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="labelMotorManeteZ.Text" xml:space="preserve">
+    <value>MotorManeteZ</value>
+  </data>
+  <data name="labelMotorManeteZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteZ.Name" xml:space="preserve">
+    <value>labelMotorManeteZ</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteZ.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteZ.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="textBoxMotorManeteZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorManeteZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 192</value>
+  </data>
+  <data name="textBoxMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorManeteZ.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="textBoxMotorManeteZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteZ.Name" xml:space="preserve">
+    <value>textBoxMotorManeteZ</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteZ.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteZ.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="sensorMotorManeteZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorManeteZ.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorManeteZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 194</value>
+  </data>
+  <data name="sensorMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorManeteZ.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="sensorMotorManeteZ.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteZ.Name" xml:space="preserve">
+    <value>sensorMotorManeteZ</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteZ.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteZ.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteZ.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="TrackBarMotorManeteZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 193</value>
+  </data>
+  <data name="TrackBarMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorManeteZ.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteZ.Name" xml:space="preserve">
+    <value>TrackBarMotorManeteZ</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteZ.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteZ.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteZ.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="labelMotorManeteX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorManeteX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMotorManeteX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 230</value>
+  </data>
+  <data name="labelMotorManeteX.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="labelMotorManeteX.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="labelMotorManeteX.Text" xml:space="preserve">
+    <value>MotorManeteX</value>
+  </data>
+  <data name="labelMotorManeteX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteX.Name" xml:space="preserve">
+    <value>labelMotorManeteX</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorManeteX.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="textBoxMotorManeteX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorManeteX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 243</value>
+  </data>
+  <data name="textBoxMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorManeteX.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="textBoxMotorManeteX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteX.Name" xml:space="preserve">
+    <value>textBoxMotorManeteX</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorManeteX.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="sensorMotorManeteX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorManeteX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorManeteX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 245</value>
+  </data>
+  <data name="sensorMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorManeteX.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="sensorMotorManeteX.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteX.Name" xml:space="preserve">
+    <value>sensorMotorManeteX</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteX.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorManeteX.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="TrackBarMotorManeteX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 244</value>
+  </data>
+  <data name="TrackBarMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorManeteX.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteX.Name" xml:space="preserve">
+    <value>TrackBarMotorManeteX</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteX.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteX.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorManeteX.ZOrder" xml:space="preserve">
+    <value>36</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
+    <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>710, 119</value>
+    <value>420, 333</value>
   </data>
   <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
+    <value>46, 13</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
+    <value>76</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>MotorX</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
+    <value>motorX</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -1390,40 +1219,640 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 230</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>frezadoMX</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="textBox1.Enabled" type="System.Boolean, mscorlib">
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 181</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>frezadoMZ</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 127</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>frezadoAG</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 81</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>frezadoMME</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TrackBarMontagemD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMontagemD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 294</value>
+  </data>
+  <data name="TrackBarMontagemD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMontagemD.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMontagemD.Name" xml:space="preserve">
+    <value>TrackBarMontagemD</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMontagemD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMontagemD.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMontagemD.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="sensorMontagemD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMontagemD.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMontagemD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMontagemD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 295</value>
+  </data>
+  <data name="sensorMontagemD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMontagemD.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="sensorMontagemD.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMontagemD.Name" xml:space="preserve">
+    <value>sensorMontagemD</value>
+  </data>
+  <data name="&gt;&gt;sensorMontagemD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMontagemD.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMontagemD.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="textBoxMontagemD.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textBoxMontagemD.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 138</value>
+  <data name="textBoxMontagemD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 293</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textBoxMontagemD.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>62</value>
+  <data name="textBoxMontagemD.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
   </data>
-  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="textBoxMontagemD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;textBoxMontagemD.Name" xml:space="preserve">
+    <value>textBoxMontagemD</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;textBoxMontagemD.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textBoxMontagemD.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textBoxMontagemD.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labelMontagemD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMontagemD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMontagemD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMontagemD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 280</value>
+  </data>
+  <data name="labelMontagemD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMontagemD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="labelMontagemD.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="labelMontagemD.Text" xml:space="preserve">
+    <value>MotorMontagemD</value>
+  </data>
+  <data name="labelMontagemD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMontagemD.Name" xml:space="preserve">
+    <value>labelMontagemD</value>
+  </data>
+  <data name="&gt;&gt;labelMontagemD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMontagemD.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMontagemD.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 280</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>frezadoMMD</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TrackBarMotorY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 392</value>
+  </data>
+  <data name="TrackBarMotorY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorY.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY.Name" xml:space="preserve">
+    <value>TrackBarMotorY</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="sensorMotorY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorY.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 393</value>
+  </data>
+  <data name="sensorMotorY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorY.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="sensorMotorY.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY.Name" xml:space="preserve">
+    <value>sensorMotorY</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="textBoxMotorY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 391</value>
+  </data>
+  <data name="textBoxMotorY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorY.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="textBoxMotorY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY.Name" xml:space="preserve">
+    <value>textBoxMotorY</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="labelMotorY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMotorY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 378</value>
+  </data>
+  <data name="labelMotorY.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMotorY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="labelMotorY.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="labelMotorY.Text" xml:space="preserve">
+    <value>MotorY</value>
+  </data>
+  <data name="labelMotorY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY.Name" xml:space="preserve">
+    <value>labelMotorY</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 380</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>motorY-S1</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TrackBarMotorY2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarMotorY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 436</value>
+  </data>
+  <data name="TrackBarMotorY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 23</value>
+  </data>
+  <data name="TrackBarMotorY2.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY2.Name" xml:space="preserve">
+    <value>TrackBarMotorY2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY2.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;TrackBarMotorY2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="sensorMotorY2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sensorMotorY2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="sensorMotorY2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sensorMotorY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 437</value>
+  </data>
+  <data name="sensorMotorY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="sensorMotorY2.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="sensorMotorY2.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY2.Name" xml:space="preserve">
+    <value>sensorMotorY2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY2.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;sensorMotorY2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="textBoxMotorY2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMotorY2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textBoxMotorY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 435</value>
+  </data>
+  <data name="textBoxMotorY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="textBoxMotorY2.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="textBoxMotorY2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY2.Name" xml:space="preserve">
+    <value>textBoxMotorY2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY2.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMotorY2.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="labelMotorY2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorY2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMotorY2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 422</value>
+  </data>
+  <data name="labelMotorY2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="labelMotorY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="labelMotorY2.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="labelMotorY2.Text" xml:space="preserve">
+    <value>MotorY2</value>
+  </data>
+  <data name="labelMotorY2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY2.Name" xml:space="preserve">
+    <value>labelMotorY2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY2.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelMotorY2.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 424</value>
+  </data>
+  <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>motorY-S2</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="metroToggle1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1435,13 +1864,13 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 140</value>
+    <value>485, 392</value>
   </data>
   <data name="metroToggle1.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
   </data>
   <data name="metroToggle1.TabIndex" type="System.Int32, mscorlib">
-    <value>61</value>
+    <value>53</value>
   </data>
   <data name="metroToggle1.Text" xml:space="preserve">
     <value>Off</value>
@@ -1453,103 +1882,46 @@
     <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="&gt;&gt;metroToggle1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroToggle1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>17</value>
   </data>
-  <data name="metroTrackBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="metroTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 139</value>
-  </data>
-  <data name="metroTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 23</value>
-  </data>
-  <data name="metroTrackBar1.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar1.Name" xml:space="preserve">
-    <value>metroTrackBar1</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>710, 170</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 379</value>
   </data>
-  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>MotorX</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>furoDE</value>
   </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textBox3.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
-  </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 189</value>
-  </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
   <data name="metroToggle2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1561,13 +1933,13 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 191</value>
+    <value>484, 436</value>
   </data>
   <data name="metroToggle2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
   </data>
   <data name="metroToggle2.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
+    <value>53</value>
   </data>
   <data name="metroToggle2.Text" xml:space="preserve">
     <value>Off</value>
@@ -1579,103 +1951,46 @@
     <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="&gt;&gt;metroToggle2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroToggle2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>21</value>
   </data>
-  <data name="metroTrackBar2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="metroTrackBar2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 190</value>
-  </data>
-  <data name="metroTrackBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 23</value>
-  </data>
-  <data name="metroTrackBar2.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar2.Name" xml:space="preserve">
-    <value>metroTrackBar2</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;metroTrackBar2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>710, 218</value>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 423</value>
   </data>
-  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>71</value>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>MotorX</value>
+  <data name="label10.Text" xml:space="preserve">
+    <value>furoDD</value>
   </data>
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="textBox4.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="textBox4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
-  </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 237</value>
-  </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 25</value>
-  </data>
-  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>70</value>
-  </data>
-  <data name="textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="metroToggle3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1687,13 +2002,13 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>916, 239</value>
+    <value>485, 481</value>
   </data>
   <data name="metroToggle3.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
   </data>
   <data name="metroToggle3.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
+    <value>53</value>
   </data>
   <data name="metroToggle3.Text" xml:space="preserve">
     <value>Off</value>
@@ -1705,34 +2020,268 @@
     <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="&gt;&gt;metroToggle3.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroToggle3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>23</value>
   </data>
-  <data name="metroTrackBar3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="metroTrackBar3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 238</value>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 468</value>
   </data>
-  <data name="metroTrackBar3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 23</value>
+  <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
-  <data name="metroTrackBar3.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
   </data>
-  <data name="&gt;&gt;metroTrackBar3.Name" xml:space="preserve">
-    <value>metroTrackBar3</value>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
   </data>
-  <data name="&gt;&gt;metroTrackBar3.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="label11.Text" xml:space="preserve">
+    <value>furoMX</value>
   </data>
-  <data name="&gt;&gt;metroTrackBar3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="metroTabControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="metroTabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="metroTabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="metroTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 507</value>
+  </data>
+  <data name="metroTabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroTabPage1.Text" xml:space="preserve">
+    <value>INÍCIO</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Name" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.Parent" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="metroTabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="metroTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 507</value>
+  </data>
+  <data name="metroTabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroTabPage2.Text" xml:space="preserve">
+    <value>DEFINIÇÕES</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Name" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.Parent" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="metroTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>867, 546</value>
+  </data>
+  <data name="metroTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Name" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;metroTrackBar3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;metroTabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gg==
+</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 36</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1743,14 +2292,14 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 17</value>
   </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1177, 695</value>
+    <value>900, 620</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -1830,6 +2379,15 @@
         gA/gAAAHwAAAA4AAAAGAAAABwAAAA4AgBAGAAAABwAAAA+AAAAfwAAAP+AAAH/wAAD/+AAB//wAA//+A
         Af//wAP//+AH///wD///+B////w////+f/8=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 620</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 620</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value> Janelerator</value>

@@ -158,7 +158,7 @@
             // 
             // home
             // 
-            this.home.BackColor = System.Drawing.Color.SteelBlue;
+            this.home.BackColor = System.Drawing.Color.Firebrick;
             resources.ApplyResources(this.home, "home");
             this.home.ForeColor = System.Drawing.SystemColors.Window;
             this.home.Name = "home";
@@ -388,7 +388,7 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.Firebrick;
             this.label1.Name = "label1";
             this.label1.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -396,28 +396,28 @@
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.Firebrick;
             this.label2.Name = "label2";
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.SystemColors.Window;
-            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.ForeColor = System.Drawing.Color.Firebrick;
             this.label3.Name = "label3";
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.SystemColors.Window;
-            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.ForeColor = System.Drawing.Color.Firebrick;
             this.label4.Name = "label4";
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.BackColor = System.Drawing.SystemColors.Window;
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.Firebrick;
             this.label5.Name = "label5";
             // 
             // TrackBarMontagemD
@@ -459,7 +459,7 @@
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.BackColor = System.Drawing.SystemColors.Window;
-            this.label7.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label7.ForeColor = System.Drawing.Color.Firebrick;
             this.label7.Name = "label7";
             // 
             // TrackBarMotorY
@@ -504,7 +504,7 @@
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.BackColor = System.Drawing.SystemColors.Window;
-            this.label8.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label8.ForeColor = System.Drawing.Color.Firebrick;
             this.label8.Name = "label8";
             this.label8.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -550,7 +550,7 @@
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.BackColor = System.Drawing.SystemColors.Window;
-            this.label9.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label9.ForeColor = System.Drawing.Color.Firebrick;
             this.label9.Name = "label9";
             this.label9.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -569,7 +569,7 @@
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.SystemColors.Window;
-            this.label6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label6.ForeColor = System.Drawing.Color.Firebrick;
             this.label6.Name = "label6";
             this.label6.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -588,7 +588,7 @@
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.BackColor = System.Drawing.SystemColors.Window;
-            this.label10.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label10.ForeColor = System.Drawing.Color.Firebrick;
             this.label10.Name = "label10";
             this.label10.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -607,7 +607,7 @@
             // 
             resources.ApplyResources(this.label11, "label11");
             this.label11.BackColor = System.Drawing.SystemColors.Window;
-            this.label11.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label11.ForeColor = System.Drawing.Color.Firebrick;
             this.label11.Name = "label11";
             this.label11.Click += new System.EventHandler(this.label1_Click_2);
             // 
@@ -618,7 +618,7 @@
             this.metroTabControl1.FontWeight = MetroFramework.MetroTabControlWeight.Bold;
             resources.ApplyResources(this.metroTabControl1, "metroTabControl1");
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
+            this.metroTabControl1.SelectedIndex = 1;
             this.metroTabControl1.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTabControl1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTabControl1.UseStyleColors = true;
@@ -639,6 +639,7 @@
             resources.ApplyResources(this.metroTabPage1, "metroTabPage1");
             this.metroTabPage1.Name = "metroTabPage1";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
+            this.metroTabPage1.Click += new System.EventHandler(this.metroTabPage1_Click);
             // 
             // metroTabPage2
             // 

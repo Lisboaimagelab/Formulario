@@ -122,7 +122,7 @@
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="tamanhoX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 122</value>
+    <value>129, 122</value>
   </data>
   <data name="tamanhoX.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -187,10 +187,10 @@
     <value>Segoe UI Black, 11.25pt, style=Bold</value>
   </data>
   <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 49</value>
+    <value>351, 47</value>
   </data>
   <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 29</value>
+    <value>100, 33</value>
   </data>
   <data name="buttonStart.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -310,10 +310,10 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="home.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 22</value>
+    <value>741, 29</value>
   </data>
   <data name="home.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 31</value>
+    <value>115, 38</value>
   </data>
   <data name="home.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -484,7 +484,7 @@
     <value>NoControl</value>
   </data>
   <data name="tamanhoXshadow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 114</value>
+    <value>118, 114</value>
   </data>
   <data name="tamanhoXshadow.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 45</value>
@@ -514,7 +514,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 345</value>
+    <value>71, 295</value>
   </data>
   <data name="TrackBarMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -589,7 +589,7 @@
     <value>Popup</value>
   </data>
   <data name="sensorMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 346</value>
+    <value>421, 296</value>
   </data>
   <data name="sensorMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -622,7 +622,7 @@
     <value>NoControl</value>
   </data>
   <data name="lableMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 331</value>
+    <value>215, 281</value>
   </data>
   <data name="lableMotorX.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -658,7 +658,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 344</value>
+    <value>15, 294</value>
   </data>
   <data name="textBoxMotorX.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -691,7 +691,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 79</value>
+    <value>182, 29</value>
   </data>
   <data name="labelMotorMontagemE.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -727,7 +727,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 92</value>
+    <value>15, 42</value>
   </data>
   <data name="textBoxMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -760,7 +760,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 94</value>
+    <value>421, 44</value>
   </data>
   <data name="sensorMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -787,7 +787,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorMontagemE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 93</value>
+    <value>71, 43</value>
   </data>
   <data name="TrackBarMotorMontagemE.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -817,7 +817,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 127</value>
+    <value>203, 77</value>
   </data>
   <data name="labelMotorAgua.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -853,7 +853,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 140</value>
+    <value>15, 90</value>
   </data>
   <data name="textBoxMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -886,7 +886,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 142</value>
+    <value>421, 92</value>
   </data>
   <data name="sensorMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -916,7 +916,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorAgua.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 141</value>
+    <value>71, 91</value>
   </data>
   <data name="TrackBarMotorAgua.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -946,7 +946,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 179</value>
+    <value>192, 129</value>
   </data>
   <data name="labelMotorManeteZ.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -982,7 +982,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 192</value>
+    <value>15, 142</value>
   </data>
   <data name="textBoxMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -1015,7 +1015,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 194</value>
+    <value>421, 144</value>
   </data>
   <data name="sensorMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1042,7 +1042,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorManeteZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 193</value>
+    <value>71, 143</value>
   </data>
   <data name="TrackBarMotorManeteZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1072,7 +1072,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 230</value>
+    <value>192, 180</value>
   </data>
   <data name="labelMotorManeteX.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1108,7 +1108,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 243</value>
+    <value>15, 193</value>
   </data>
   <data name="textBoxMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -1141,7 +1141,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 245</value>
+    <value>421, 195</value>
   </data>
   <data name="sensorMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1168,7 +1168,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorManeteX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 244</value>
+    <value>71, 194</value>
   </data>
   <data name="TrackBarMotorManeteX.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1198,7 +1198,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 333</value>
+    <value>420, 280</value>
   </data>
   <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1234,7 +1234,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 230</value>
+    <value>420, 177</value>
   </data>
   <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1270,7 +1270,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 181</value>
+    <value>420, 128</value>
   </data>
   <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1306,7 +1306,7 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 127</value>
+    <value>421, 74</value>
   </data>
   <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1342,7 +1342,7 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 81</value>
+    <value>420, 28</value>
   </data>
   <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1372,7 +1372,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMontagemD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 294</value>
+    <value>71, 244</value>
   </data>
   <data name="TrackBarMontagemD.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1402,7 +1402,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMontagemD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 295</value>
+    <value>421, 245</value>
   </data>
   <data name="sensorMontagemD.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1432,7 +1432,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMontagemD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 293</value>
+    <value>15, 243</value>
   </data>
   <data name="textBoxMontagemD.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -1465,7 +1465,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMontagemD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 280</value>
+    <value>192, 230</value>
   </data>
   <data name="labelMontagemD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1504,7 +1504,7 @@
     <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 280</value>
+    <value>420, 227</value>
   </data>
   <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1534,7 +1534,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 392</value>
+    <value>71, 342</value>
   </data>
   <data name="TrackBarMotorY.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1564,7 +1564,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 393</value>
+    <value>421, 343</value>
   </data>
   <data name="sensorMotorY.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1594,7 +1594,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 391</value>
+    <value>15, 341</value>
   </data>
   <data name="textBoxMotorY.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -1627,7 +1627,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 378</value>
+    <value>215, 328</value>
   </data>
   <data name="labelMotorY.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1666,7 +1666,7 @@
     <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 380</value>
+    <value>420, 327</value>
   </data>
   <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1696,7 +1696,7 @@
     <value>NoControl</value>
   </data>
   <data name="TrackBarMotorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 436</value>
+    <value>70, 386</value>
   </data>
   <data name="TrackBarMotorY2.Size" type="System.Drawing.Size, System.Drawing">
     <value>342, 23</value>
@@ -1726,7 +1726,7 @@
     <value>NoControl</value>
   </data>
   <data name="sensorMotorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 437</value>
+    <value>420, 387</value>
   </data>
   <data name="sensorMotorY2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1756,7 +1756,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="textBoxMotorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 435</value>
+    <value>14, 385</value>
   </data>
   <data name="textBoxMotorY2.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 25</value>
@@ -1789,7 +1789,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelMotorY2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 422</value>
+    <value>214, 372</value>
   </data>
   <data name="labelMotorY2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1828,7 +1828,7 @@
     <value>NoControl</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 424</value>
+    <value>419, 371</value>
   </data>
   <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1864,7 +1864,7 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 392</value>
+    <value>485, 342</value>
   </data>
   <data name="metroToggle1.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1897,7 +1897,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 379</value>
+    <value>484, 326</value>
   </data>
   <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -1933,7 +1933,7 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 436</value>
+    <value>484, 386</value>
   </data>
   <data name="metroToggle2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -1966,7 +1966,7 @@
     <value>NoControl</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 423</value>
+    <value>483, 370</value>
   </data>
   <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -2002,7 +2002,7 @@
     <value>NoControl</value>
   </data>
   <data name="metroToggle3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 481</value>
+    <value>485, 431</value>
   </data>
   <data name="metroToggle3.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -2035,7 +2035,7 @@
     <value>NoControl</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 468</value>
+    <value>484, 415</value>
   </data>
   <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -2061,9 +2061,6 @@
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <metadata name="metroTabControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="metroTabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
